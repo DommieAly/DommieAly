@@ -35,48 +35,12 @@
 
 ---
 
-### 🚀 Featured Projects
-
-<table align="center" width="100%">
-<tr>
-<td width="33%" valign="top" align="center">
-
-#### 🔴 Project Aurora
-Realtime dashboards & data viz.
-
-[![Repo](https://img.shields.io/badge/View-Repo-e60000?style=for-the-badge&logo=github)](https://github.com/DommieAly)
-
-</td>
-<td width="33%" valign="top" align="center">
-
-#### 🟡 Nimbus CLI
-Developer tooling for fast shipping.
-
-[![Repo](https://img.shields.io/badge/View-Repo-ffb300?style=for-the-badge&logo=github)](https://github.com/DommieAly)
-
-</td>
-<td width="33%" valign="top" align="center">
-
-#### 🔵 PixelForge
-A creative toolkit for makers.
-
-[![Repo](https://img.shields.io/badge/View-Repo-0a1f66?style=for-the-badge&logo=github)](https://github.com/DommieAly)
-
-</td>
-</tr>
-</table>
-
----
-
-<!-- ====== STATS (orbiting around) ====== -->
+<!-- ====== MINI GAME ====== -->
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=DommieAly&show_icons=true&theme=radical&hide_border=true&bg_color=0c0e1a&title_color=ff3b3b&icon_color=ffd84d&text_color=cdd4f0" alt="stats" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DommieAly&layout=compact&theme=radical&hide_border=true&bg_color=0c0e1a&title_color=2b5fd0&text_color=cdd4f0" alt="top langs" />
+### 🦖 Dino Run
 
-<br/>
-
-<img width="95%" src="https://github-readme-streak-stats.herokuapp.com/?user=DommieAly&theme=radical&hide_border=true&background=0c0e1a&ring=ffd84d&fire=ff3b3b&currStreakLabel=2b5fd0" alt="streak" />
+<img src="./assets/dino.svg" alt="Dino jump game" width="90%" />
 
 </div>
 
