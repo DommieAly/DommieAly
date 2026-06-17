@@ -42,7 +42,7 @@
     </style>
   </defs>
 
-  <rect x="2" y="2" width="796" height="216" rx="32" fill="#ffffff" stroke="#e60000" stroke-width="3"/>
+  <rect x="1.5" y="1.5" width="797" height="217" rx="32" fill="#ffffff" stroke="#eceef1" stroke-width="1.5"/>
 
   <!-- score -->
   <text class="ui" x="760" y="40" text-anchor="end" font-size="18" letter-spacing="2">HI <tspan class="blink">2026</tspan></text>
