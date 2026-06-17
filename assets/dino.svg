@@ -3,11 +3,20 @@
     <style>
       .ui { font-family: 'Courier New', monospace; fill: #9aa0a6; }
 
-      /* Dino auto-jump, synced so it clears the cactus */
-      .dino { transform-box: fill-box; transform-origin: center bottom; animation: jump 2.2s ease-in-out infinite; }
+      /* Dino auto-jump: true projectile motion (gravity) -> fast off the ground, slow at the apex.
+         Linear timing between parabola-sampled keyframes y = -4H*t(1-t). */
+      .dino { transform-box: fill-box; transform-origin: center bottom; animation: jump 2.2s linear infinite; }
       @keyframes jump {
         0%, 64%   { transform: translateY(0); }
-        78%       { transform: translateY(-78px); }
+        66.8%     { transform: translateY(-29px); }
+        69.6%     { transform: translateY(-51px); }
+        72.4%     { transform: translateY(-67px); }
+        75.2%     { transform: translateY(-77px); }
+        78%       { transform: translateY(-80px); }
+        80.8%     { transform: translateY(-77px); }
+        83.6%     { transform: translateY(-67px); }
+        86.4%     { transform: translateY(-51px); }
+        89.2%     { transform: translateY(-29px); }
         92%, 100% { transform: translateY(0); }
       }
 
@@ -33,7 +42,7 @@
     </style>
   </defs>
 
-  <rect x="1" y="1" width="798" height="218" rx="20" fill="#ffffff" stroke="#e5e7eb"/>
+  <rect x="1.5" y="1.5" width="797" height="217" rx="32" fill="#ffffff" stroke="#eceef1" stroke-width="1.5"/>
 
   <!-- score -->
   <text class="ui" x="760" y="40" text-anchor="end" font-size="18" letter-spacing="2">HI 04 <tspan class="blink">20</tspan></text>

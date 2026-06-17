@@ -14,32 +14,19 @@
     </linearGradient>
 
     <style>
-      .name { font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; font-weight: 800; }
-
-      .ltr { opacity: 0; transform-box: fill-box; transform-origin: center bottom; animation: pop .7s ease forwards; }
-      .l1 { animation-delay: .1s; }
-      .l2 { animation-delay: .2s; }
-      .l3 { animation-delay: .3s; }
-      .l4 { animation-delay: .4s; }
-      .l5 { animation-delay: .5s; }
-      .l6 { animation-delay: .6s; }
-      .l7 { animation-delay: .7s; }
-      .l8 { animation-delay: .8s; }
-      .l9 { animation-delay: .9s; }
-
-      @keyframes pop {
-        0%   { opacity: 0; transform: translateY(34px) scale(.5); }
-        70%  { opacity: 1; transform: translateY(-8px) scale(1.08); }
-        100% { opacity: 1; transform: translateY(0) scale(1); }
-      }
+      @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&amp;display=swap');
+      .name { font-family: 'Product Sans','Google Sans','Poppins','Futura','Avenir Next','Century Gothic','Trebuchet MS',sans-serif; font-weight: 600; }
     </style>
   </defs>
 
-  <rect x="1" y="1" width="998" height="298" rx="20" fill="#ffffff" stroke="#e5e7eb"/>
+  <rect x="1.5" y="1.5" width="997" height="297" rx="32" fill="#ffffff" stroke="#eceef1" stroke-width="1.5"/>
 
-  <g class="name" font-size="150" text-anchor="middle">
-    <text x="500" y="200">
-      <tspan class="ltr l1" fill="url(#red)">D</tspan><tspan class="ltr l2" fill="url(#red)">o</tspan><tspan class="ltr l3" fill="url(#red)">m</tspan><tspan class="ltr l4" fill="url(#yellow)">m</tspan><tspan class="ltr l5" fill="url(#yellow)">i</tspan><tspan class="ltr l6" fill="url(#yellow)">e</tspan><tspan class="ltr l7" fill="url(#blue)">A</tspan><tspan class="ltr l8" fill="url(#blue)">l</tspan><tspan class="ltr l9" fill="url(#blue)">y</tspan>
+  <g class="name" text-anchor="middle" font-size="150">
+    <text y="205">
+      <tspan x="116" fill="url(#red)">D</tspan><tspan x="219" fill="url(#red)">o</tspan><tspan x="344" fill="url(#red)">m</tspan><tspan x="500" fill="url(#yellow)">m</tspan><tspan x="600" fill="url(#yellow)">&#305;</tspan><tspan x="666" fill="url(#yellow)">e</tspan><tspan x="762" fill="url(#blue)">A</tspan><tspan x="834" fill="url(#blue)">l</tspan><tspan x="897" fill="url(#blue)">y</tspan>
     </text>
   </g>
+
+  <!-- dot of the i -->
+  <circle cx="600" cy="95" r="12" fill="url(#yellow)"/>
 </svg>

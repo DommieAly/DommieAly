@@ -1,60 +1,38 @@
-<!-- ====== HERO (center piece) ====== -->
 <div align="center">
 
 <img src="./assets/hero.svg" alt="DommieAly" width="100%" />
 
 </div>
 
-<!-- ====== AROUND THE CENTER ====== -->
-<table align="center" width="100%">
-<tr>
-<td width="50%" valign="top">
+## 🙋 About Me
 
-### 🙋 About Me
+- 🔭 Full-stack developer who loves turning ideas into products.
+- 🌱 Currently exploring **system design** & **AI tooling**.
+- 💬 Ask me about **TypeScript · React · Python · Cloud**.
 
-- 🔭 I'm **DommieAly**, a full-stack developer who loves turning ideas into products.
-- 🌱 Currently leveling up on **system design** & **AI tooling**.
-- 💬 Ask me about **TypeScript, React, Python, Cloud**.
-- ⚡ Fun fact: I color my name <span>🟥🟥🟥</span><span>🟨🟨🟨</span><span>🟦🟦🟦</span>.
+## 🧰 Tech Stack
 
-</td>
-<td width="50%" valign="top">
+<p>
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Java-007396?style=flat&logo=openjdk&logoColor=white" alt="Java" />
+  <img src="https://img.shields.io/badge/Go-00ADD8?style=flat&logo=go&logoColor=white" alt="Go" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white" alt="Node.js" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonwebservices&logoColor=white" alt="AWS" />
+</p>
 
-### 🧰 Tech Stack
+## 🦖 Dino Run
 
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
-
-</td>
-</tr>
-</table>
-
----
-
-<!-- ====== MINI GAME ====== -->
 <div align="center">
 
-### 🦖 Dino Run
-
-<img src="./assets/dino.svg" alt="Dino jump game" width="90%" />
+<img src="./assets/dino.svg" alt="Dino jump game" width="88%" />
 
 </div>
 
----
+## 🌐 Connect
 
-<!-- ====== CONNECT (footer ring) ====== -->
-<div align="center">
-
-### 🌐 Let's Connect
-
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/DommieAly)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dommiealy@example.com)
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/DommieAly)
-
-<img src="https://komarev.com/ghpvc/?username=DommieAly&style=flat-square&color=ff3b3b" alt="views" />
-
-</div>
+<a href="https://github.com/DommieAly"><img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white" alt="GitHub" height="28" /></a>
+<a href="mailto:dommiealy@example.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white" alt="Email" height="28" /></a>
+<a href="https://twitter.com/DommieAly"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=flat&logo=twitter&logoColor=white" alt="Twitter" height="28" /></a>
