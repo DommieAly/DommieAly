@@ -14,18 +14,20 @@
 <tr>
 <td width="50%" valign="top">
 
-### 🟥 ABOUT 🟥
+<h3 align="center">🟥 哈 🟥</h3>
 
 * 🔭 I'm **DommieAly**, currently an undergraduate student at **Nanyang Technological University, Singapore**.
 * 🌱 Currently leveling up on **VLM&VLA**, **World Models**, and **Robot Learning**.
 * ⚙️ I also enjoy building backend systems, data pipelines, and reliable engineering tools.
-* 🎯 Interested in intelligent systems that can perceive, reason, and act in the real world.
+* 🎯 我的歌单全是哈基米和叮咚鸡。
 
 </td>
 <td width="50%" valign="top">
 
-### 🟨 STACK 🟨
+<h3 align="center">🟨 基 🟨</h3>
 
+<div align="center">
+  
 <img src="https://img.shields.io/badge/Python-1D4ED8?style=flat-square&logo=python&logoColor=white" />
 <img src="https://img.shields.io/badge/TypeScript-1D4ED8?style=flat-square&logo=typescript&logoColor=white" />
 <img src="https://img.shields.io/badge/Go-1D4ED8?style=flat-square&logo=go&logoColor=white" />
@@ -47,6 +49,14 @@
 
 <br/><br/>
 
+<sub>
+VLA · World Models · Robot Learning · Backend Systems
+</sub>
+
+</div>
+
+</div>
+
 </td>
 </tr>
 </table>
@@ -59,7 +69,7 @@
 
 <div align="center">
 
-### 🟦 PLAYGROUND 🟦
+### 🟦 米 🟦
 
 <img src="./assets/dino.svg" alt="Dino jump game" width="88%" />
 
