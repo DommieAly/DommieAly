@@ -45,7 +45,7 @@
   <rect x="1.5" y="1.5" width="797" height="217" rx="32" fill="#ffffff" stroke="#eceef1" stroke-width="1.5"/>
 
   <!-- score -->
-  <text class="ui" x="760" y="40" text-anchor="end" font-size="18" letter-spacing="2">HI 04 <tspan class="blink">20</tspan></text>
+  <text class="ui" x="760" y="40" text-anchor="end" font-size="18" letter-spacing="2">HI <tspan class="blink">2026</tspan></text>
 
   <!-- clouds -->
   <g fill="#dfe2e6">
