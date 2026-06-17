@@ -1,0 +1,165 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" fill="none" role="img" aria-label="DommieAly profile hero">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="42%" r="75%">
+      <stop offset="0%" stop-color="#15182b"/>
+      <stop offset="55%" stop-color="#0c0e1a"/>
+      <stop offset="100%" stop-color="#05060d"/>
+    </radialGradient>
+
+    <linearGradient id="red" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ff5a5a"/>
+      <stop offset="100%" stop-color="#e60000"/>
+    </linearGradient>
+    <linearGradient id="yellow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fff6c2"/>
+      <stop offset="100%" stop-color="#ffd84d"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2b5fd0"/>
+      <stop offset="100%" stop-color="#0a1f66"/>
+    </linearGradient>
+
+    <linearGradient id="ringStroke" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ff3b3b"/>
+      <stop offset="50%" stop-color="#ffd84d"/>
+      <stop offset="100%" stop-color="#2b5fd0"/>
+    </linearGradient>
+
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <style>
+      .name { font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; font-weight: 800; }
+      .ui   { font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; }
+
+      .ltr { opacity: 0; transform-box: fill-box; transform-origin: center; animation: pop .7s ease forwards, float 4.5s ease-in-out infinite; }
+      .l1 { animation-delay: .1s, .8s; }
+      .l2 { animation-delay: .2s, .9s; }
+      .l3 { animation-delay: .3s, 1.0s; }
+      .l4 { animation-delay: .4s, 1.1s; }
+      .l5 { animation-delay: .5s, 1.2s; }
+      .l6 { animation-delay: .6s, 1.3s; }
+      .l7 { animation-delay: .7s, 1.4s; }
+      .l8 { animation-delay: .8s, 1.5s; }
+      .l9 { animation-delay: .9s, 1.6s; }
+
+      @keyframes pop {
+        0%   { opacity: 0; transform: translateY(28px) scale(.6); }
+        70%  { opacity: 1; transform: translateY(-6px) scale(1.06); }
+        100% { opacity: 1; transform: translateY(0) scale(1); }
+      }
+      @keyframes float {
+        0%,100% { transform: translateY(0); }
+        50%     { transform: translateY(-9px); }
+      }
+
+      .fadein { opacity: 0; animation: fadein 1s ease forwards; }
+      .d1 { animation-delay: 1.1s; }
+      .d2 { animation-delay: 1.35s; }
+      .d3 { animation-delay: 1.6s; }
+      .d4 { animation-delay: 1.85s; }
+      @keyframes fadein { to { opacity: 1; } }
+
+      .twinkle { animation: twk 3s ease-in-out infinite; }
+      @keyframes twk { 0%,100% { opacity: .25; } 50% { opacity: 1; } }
+
+      .spin  { transform-origin: 500px 320px; animation: spin 26s linear infinite; }
+      .spinr { transform-origin: 500px 320px; animation: spin 38s linear infinite reverse; }
+      @keyframes spin { to { transform: rotate(360deg); } }
+
+      .pulse { animation: pulse 3.4s ease-in-out infinite; }
+      @keyframes pulse { 0%,100% { opacity: .35; } 50% { opacity: .85; } }
+    </style>
+  </defs>
+
+  <rect width="1000" height="640" rx="24" fill="url(#bg)"/>
+  <rect x="2" y="2" width="996" height="636" rx="22" fill="none" stroke="url(#ringStroke)" stroke-opacity="0.25"/>
+
+  <g fill="#ffffff">
+    <circle class="twinkle" cx="120" cy="90"  r="2"   style="animation-delay:.2s"/>
+    <circle class="twinkle" cx="880" cy="120" r="2.4" style="animation-delay:.9s"/>
+    <circle class="twinkle" cx="760" cy="70"  r="1.6" style="animation-delay:1.4s"/>
+    <circle class="twinkle" cx="200" cy="540" r="2"   style="animation-delay:.6s"/>
+    <circle class="twinkle" cx="820" cy="560" r="2.2" style="animation-delay:1.1s"/>
+    <circle class="twinkle" cx="500" cy="40"  r="1.8" style="animation-delay:1.8s"/>
+    <circle class="twinkle" cx="60"  cy="320" r="1.8" style="animation-delay:.4s"/>
+    <circle class="twinkle" cx="940" cy="330" r="1.8" style="animation-delay:1.6s"/>
+  </g>
+
+  <g class="pulse">
+    <ellipse class="spin"  cx="500" cy="320" rx="360" ry="150" fill="none" stroke="url(#ringStroke)" stroke-width="1.5" stroke-dasharray="3 10"/>
+    <ellipse class="spinr" cx="500" cy="320" rx="300" ry="120" fill="none" stroke="url(#ringStroke)" stroke-width="1.5" stroke-dasharray="2 14"/>
+  </g>
+  <g class="spin">
+    <circle cx="860" cy="320" r="5" fill="#ff3b3b"/>
+    <circle cx="140" cy="320" r="4" fill="#2b5fd0"/>
+  </g>
+  <g class="spinr">
+    <circle cx="500" cy="200" r="4" fill="#ffd84d"/>
+  </g>
+
+  <text class="ui fadein d1" x="500" y="86" text-anchor="middle" fill="#aeb6d6" font-size="22" letter-spacing="6">WELCOME TO MY GITHUB</text>
+  <text class="ui fadein d2" x="500" y="124" text-anchor="middle" fill="#e7ecff" font-size="17" letter-spacing="1">Full-Stack Developer &#183; Open-Source Lover &#183; Lifelong Learner</text>
+
+  <g class="name" filter="url(#glow)" font-size="150" text-anchor="middle">
+    <text x="500" y="372">
+      <tspan class="ltr l1" fill="url(#red)">D</tspan><tspan class="ltr l2" fill="url(#red)">o</tspan><tspan class="ltr l3" fill="url(#red)">m</tspan><tspan class="ltr l4" fill="url(#yellow)">m</tspan><tspan class="ltr l5" fill="url(#yellow)">i</tspan><tspan class="ltr l6" fill="url(#yellow)">e</tspan><tspan class="ltr l7" fill="url(#blue)">A</tspan><tspan class="ltr l8" fill="url(#blue)">l</tspan><tspan class="ltr l9" fill="url(#blue)">y</tspan>
+    </text>
+  </g>
+
+  <g class="ui fadein d3" font-size="15" fill="#cdd4f0">
+    <g transform="translate(40,250)">
+      <rect width="150" height="34" rx="17" fill="#ffffff" fill-opacity="0.06" stroke="#ff3b3b" stroke-opacity="0.5"/>
+      <text x="75" y="22" text-anchor="middle">&#128187; Code daily</text>
+    </g>
+    <g transform="translate(40,304)">
+      <rect width="150" height="34" rx="17" fill="#ffffff" fill-opacity="0.06" stroke="#ffd84d" stroke-opacity="0.5"/>
+      <text x="75" y="22" text-anchor="middle">&#128640; Ship fast</text>
+    </g>
+    <g transform="translate(40,358)">
+      <rect width="150" height="34" rx="17" fill="#ffffff" fill-opacity="0.06" stroke="#2b5fd0" stroke-opacity="0.7"/>
+      <text x="75" y="22" text-anchor="middle">&#127757; Build for all</text>
+    </g>
+  </g>
+
+  <g class="ui fadein d3" font-size="15" fill="#cdd4f0">
+    <g transform="translate(810,250)">
+      <rect width="150" height="34" rx="17" fill="#ffffff" fill-opacity="0.06" stroke="#ff3b3b" stroke-opacity="0.5"/>
+      <text x="75" y="22" text-anchor="middle">&#9883; React / TS</text>
+    </g>
+    <g transform="translate(810,304)">
+      <rect width="150" height="34" rx="17" fill="#ffffff" fill-opacity="0.06" stroke="#ffd84d" stroke-opacity="0.5"/>
+      <text x="75" y="22" text-anchor="middle">&#128013; Python</text>
+    </g>
+    <g transform="translate(810,358)">
+      <rect width="150" height="34" rx="17" fill="#ffffff" fill-opacity="0.06" stroke="#2b5fd0" stroke-opacity="0.7"/>
+      <text x="75" y="22" text-anchor="middle">&#9729; Cloud / DevOps</text>
+    </g>
+  </g>
+
+  <text class="ui fadein d4" x="500" y="486" text-anchor="middle" fill="#8e97bf" font-size="14" letter-spacing="4">FEATURED PROJECTS</text>
+  <g class="ui fadein d4" font-size="15" fill="#e7ecff">
+    <g transform="translate(190,508)">
+      <rect width="180" height="44" rx="12" fill="#ff3b3b" fill-opacity="0.12" stroke="#ff3b3b" stroke-opacity="0.6"/>
+      <text x="90" y="20" text-anchor="middle" font-weight="700">&#9733; Project Aurora</text>
+      <text x="90" y="36" text-anchor="middle" font-size="11" fill="#aeb6d6">realtime dashboards</text>
+    </g>
+    <g transform="translate(410,508)">
+      <rect width="180" height="44" rx="12" fill="#ffd84d" fill-opacity="0.12" stroke="#ffd84d" stroke-opacity="0.6"/>
+      <text x="90" y="20" text-anchor="middle" font-weight="700">&#9733; Nimbus CLI</text>
+      <text x="90" y="36" text-anchor="middle" font-size="11" fill="#aeb6d6">developer tooling</text>
+    </g>
+    <g transform="translate(630,508)">
+      <rect width="180" height="44" rx="12" fill="#2b5fd0" fill-opacity="0.16" stroke="#2b5fd0" stroke-opacity="0.8"/>
+      <text x="90" y="20" text-anchor="middle" font-weight="700">&#9733; PixelForge</text>
+      <text x="90" y="36" text-anchor="middle" font-size="11" fill="#aeb6d6">creative toolkit</text>
+    </g>
+  </g>
+
+  <text class="ui fadein d4" x="500" y="596" text-anchor="middle" font-size="13"><tspan fill="#8e97bf">Let&#39;s build something amazing together &#10022;</tspan></text>
+</svg>
