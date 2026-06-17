@@ -16,9 +16,9 @@
 
 <h3 align="center">🟥 哈 🟥</h3>
 
-* 🔭 I'm **DommieAly**, currently an undergraduate student at **Nanyang Technological University, Singapore**.
+* 🔭 I'm **DommieAly**, currently a Year-3 undergraduate student at **Nanyang Technological University, Singapore**.
 * 🌱 Currently leveling up on **VLM&VLA**, **World Models**, and **Robot Learning**.
-* ⚙️ I also enjoy building backend systems, data pipelines, and reliable engineering tools.
+* ⚙️ I am (was) working as a software engineer intern at **Google** and **TikTok**.
 * 🎯 我的歌单全是哈基米和叮咚鸡。
 
 </td>
@@ -65,23 +65,28 @@ VLA · World Models · Robot Learning · Backend Systems
 
 ---
 
-<!-- ====== MINI GAME ====== -->
-
+<!-- ====== PLAYGROUND ====== -->
 <div align="center">
 
-### 🟦 米 🟦
+<h3 align="center">🟦 米 🟦</h3>
 
-<img src="./assets/dino.svg" alt="Dino jump game" width="88%" />
+<div align="left">
+  <img src="./assets/dino.svg" alt="Dino jump game" width="82%" />
+</div>
+
 <br/><br/>
-<img src="./assets/robot_pick_place.svg" alt="Robot arm pick-and-place mini game (Vision · Language · Action)" width="88%" />
+
+<div align="right">
+  <img src="./assets/robot_pick_place.svg" alt="Robot arm pick-and-place mini game (Vision · Language · Action)" width="82%" />
+</div>
 
 </div>
 
 <br/>
 
----
-
 <!-- ====== CONNECT ====== -->
+
+---
 
 <div align="center">
 
@@ -99,3 +104,5 @@ minimizing losses makes me more robust
 </sub>
 
 </div>
+
+
