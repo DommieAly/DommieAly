@@ -74,7 +74,7 @@
     </style>
   </defs>
 
-  <rect x="1.5" y="1.5" width="797" height="217" rx="32" fill="#ffffff" stroke="#eceef1" stroke-width="1.5"/>
+  <rect x="2" y="2" width="796" height="216" rx="32" fill="#ffffff" stroke="#f0b400" stroke-width="3"/>
 
   <!-- gantry -->
   <rect x="30" y="30" width="740" height="7" rx="3" fill="#cfd4de"/>
