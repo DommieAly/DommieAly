@@ -71,13 +71,13 @@ VLA · World Models · Robot Learning · Backend Systems
 <h3 align="center">🟦 米 🟦</h3>
 
 <div align="left">
-  <img src="./assets/dino.svg" alt="Dino jump game" width="82%" />
+  <img src="./assets/dino.svg?v=3" alt="Dino jump game" width="82%" />
 </div>
 
 <br/><br/>
 
 <div align="right">
-  <img src="./assets/robot_pick_place.svg" alt="Robot arm pick-and-place mini game (Vision · Language · Action)" width="82%" />
+  <img src="./assets/robot_pick_place.svg?v=3" alt="Robot arm pick-and-place mini game (Vision · Language · Action)" width="82%" />
 </div>
 
 </div>
